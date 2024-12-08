@@ -1,1 +1,2 @@
-alert("hello js");
+"use strict";
+let message = "Hello JS";
