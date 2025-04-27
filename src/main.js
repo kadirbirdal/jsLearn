@@ -13,6 +13,8 @@ console.log(message);
 const birthDate = "17.03.1997";
 const userID = "1234567890";
 let isAdmin = false;
+const userName = "kadir";
+const password = "123";
 
 //Type Conversions
 let user2ID = Number("1234");
@@ -37,3 +39,16 @@ console.log(apple);
 apple--;
 console.log(apple);
 
+// conditionals (if else)
+let inputUserName = prompt("Username");
+let inputPassword = prompt("Password");
+
+if (inputUserName == userName && inputPassword == password) {
+    console.log("Welcome");
+}else if (inputUserName != userName && inputPassword == password) {
+    console.log("Username is incorrect!");
+}else if (inputPassword != password && inputUserName == userName) {
+    console.log("Password is incorrect");
+}else {
+    console.log("Username or Password is incorrect!");
+}
