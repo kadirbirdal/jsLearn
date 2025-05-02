@@ -39,16 +39,30 @@ console.log(apple);
 apple--;
 console.log(apple);
 
-// conditionals (if else)
-let inputUserName = prompt("Username");
-let inputPassword = prompt("Password");
+// conditionals (if-else)
+// let inputUserName = prompt("Username");
+// let inputPassword = prompt("Password");
 
-if (inputUserName == userName && inputPassword == password) {
-    console.log("Welcome");
-}else if (inputUserName != userName && inputPassword == password) {
-    console.log("Username is incorrect!");
-}else if (inputPassword != password && inputUserName == userName) {
-    console.log("Password is incorrect");
-}else {
-    console.log("Username or Password is incorrect!");
+// if (inputUserName == userName && inputPassword == password) {
+//     console.log("Welcome");
+// }else if (inputUserName != userName && inputPassword == password) {
+//     console.log("Username is incorrect!");
+// }else if (inputPassword != password && inputUserName == userName) {
+//     console.log("Password is incorrect");
+// }else {
+//     console.log("Username or Password is incorrect!");
+// }
+
+// Loops (While-for)
+let i = 0;
+while (i < 3) {
+    console.log(i);
+    i++;
+}
+
+while (i <= 10) {
+    if (i % 2 == 0) {
+        console.log(i + ": This number is divisible by 2");
+    }
+    i++;
 }
